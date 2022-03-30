@@ -1,0 +1,119 @@
+body, 
+header, 
+nav ul, 
+li, 
+p, 
+h1, 
+a{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'comic', 'Times New Roman', Times, serif;
+    flex-shrink: 0;
+}
+
+@font-face {
+    font-family: 'comic';
+    src: url(fonts/Fredoka.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'sexo';
+    src: url(fonts/JMHTypewriter.otf) format('opentype'),
+         url(fonts/JMHTypewriter.ttf) format('truetype');
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    margin-left: 1em;
+}
+
+li a {
+    padding: 0.4em;
+    font-family: 'comic', 'Times New Roman', Times, serif;
+}
+
+li a:hover {
+    background-color: rgb(255, 247, 107, 0.6);
+}
+
+ul {
+    margin: 0px;
+}
+
+.header {
+    background-color: #FCD32B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    min-height: 100%;
+}
+
+.title {
+    font-family: 'comic', 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.section-sobre {
+    display: flex;
+    margin: 2% 3%;
+}
+
+.section-sobre img {
+    margin-right: 1em;
+    height: 800px;
+}
+
+.section-sobre-texto {
+    margin-top: 2em;
+}
+
+.section-sobre-texto h2{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.section-sobre-texto {
+    text-align: justify;
+}
+
+.sobre-title {
+    font-family: "sexo";
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.sobre-desc {
+    font-family: "sexo";
+    margin-bottom: 30px;
+}
+
+.footer-luva {
+    margin: 0px;
+    background-color: rgb(255, 255, 20, 0.2);
+}
+
+
+
+
+
+ 
+
+
+
+
+
